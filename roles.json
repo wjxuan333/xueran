@@ -5,7 +5,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 33,
-    "firstNightReminder": "每个夜晚，你会得知与你相邻的玩家存在的外来和恶魔数量.","首次被邪恶玩家选中，不论其效果是什么都会使王丹丹醉酒.",
+    "firstNightReminder": "每个夜晚，你会得知与你相邻的玩家存在的外来和恶魔数量.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Townsfolk",
