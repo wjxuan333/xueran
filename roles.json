@@ -14,8 +14,8 @@
     "ability": "每个夜晚，你会得知与你相邻的玩家存在的外来和恶魔数量。\n首次被邪恶玩家选中，不论其效果是什么都会使王丹丹醉酒。\n羁绊技能：首夜会得知唐伟豪是否在场，每个白天如果唐伟豪存活在场。那么第一轮投票必须上票。"
   },
   {
-    "id": "librarian",
-    "name": "Librarian",
+    "id": "唐伟豪",
+    "name": "唐伟豪",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 34,
@@ -25,11 +25,11 @@
     "reminders": ["Outsider",
         "Wrong"],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)"
+    "ability": " 技能一：有用但又不关键的信息：仅一次，白天私下找说书人 选择两个善良身份。如果两个身份都在场。你可以得到一个属于其中一个身份的玩家原始座位号。如果其中一个或两个身份不在场，你将无法获得信息。羁绊技能：给大家一点梅林的震撼首夜会得知王丹丹是否在场，每个白天如果王丹丹存活在场。那么第一轮投票必须上票。不上票则可能会死亡"
   },
   {
-    "id": "investigator",
-    "name": "Investigator",
+    "id": "聂萌",
+    "name": "聂萌",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 35,
@@ -39,11 +39,11 @@
     "reminders": ["Minion",
         "Wrong"],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Minion."
+    "ability": "技能一：只此一次的舞蛇。只能发动一次技能的舞蛇人羁绊技能：每个白天秘密选择邀请一名存活玩家看电影（不可重复）夜间生效，该玩家当晚不会死亡且醉酒"
   },
   {
-    "id": "chef",
-    "name": "Chef",
+    "id": "朱弥彬",
+    "name": "朱弥彬",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 36,
@@ -52,11 +52,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many pairs of evil players there are."
+    "ability": "技能一：我好人：每天可以选择保护身边的一名玩家，不受邪恶玩家影响。羁绊技能：我信你，我真信你。当该玩家作为善良玩家死亡时，你将替他死亡。若该玩家是邪恶方，你将为自己盲目信任买单，恶魔将得知你的身份并可以在任何时间决定你的生死。"
   },
   {
-    "id": "empath",
-    "name": "Empath",
+    "id": "郑方旖",
+    "name": "郑方旖",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 37,
@@ -65,11 +65,11 @@
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
+    "ability": "技能一：让我猜一猜。首夜可以选择一名玩家，你可以知道该玩家旁边存在几种不同类型的角色。羁绊技能：姐妹花。首夜会得知张意钒是否在场，如果她在场，每个白天仅可进行一次投票."
   },
   {
-    "id": "fortuneteller",
-    "name": "Fortune Teller",
+    "id": "徐云凯",
+    "name": "徐云凯",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 38,
@@ -78,11 +78,11 @@
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": ["Red herring"],
     "setup": false,
-    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+    "ability": "技能一：大数学家。每个夜晚*，你会得知最少三个数字，数字可能为：玩家的座位号/主动技能所释放的对象/被动技能获取的信息。羁绊技能：我是弟弟啊。首个夜晚你可以选择一名玩家进行敲门，如果对方同意，他将成为你的姐姐并得知你的身份。"
   },
   {
-    "id": "undertaker",
-    "name": "Undertaker",
+    "id": "白维扬",
+    "name": "白维扬",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -91,11 +91,11 @@
     "otherNightReminder": "If a player was executed today: Show that player\u2019s character token.",
     "reminders": ["Executed"],
     "setup": false,
-    "ability": "Each night*, you learn which character died by execution today."
+    "ability": "技能一：我有冰块。主动提名善良玩家将导致他的死亡。羁绊技能：哥们 铁好。 这你都不信？在白天提名并导致你死亡的玩家需要在夜里歌唱，否则可能会被处决。在夜晚杀死你的玩家需要在第二个白天进行歌唱，否则可能会被处决."
   },
   {
-    "id": "monk",
-    "name": "Monk",
+    "id": "张意钒",
+    "name": "张意钒",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -104,21 +104,9 @@
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
     "reminders": ["Protected"],
     "setup": false,
-    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+    "ability": "技能一：假贞洁，真杀手。首次提名你的如果是个邪恶玩家他将被杀死。羁绊技能：偷偷照照镜子。首夜可以在任意时间睁眼抬头一次（3s内）"
   },
-  {
-    "id": "ravenkeeper",
-    "name": "Ravenkeeper",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 52,
-    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player\u2019s character token.",
-    "reminders": [],
-    "setup": false,
-    "ability": "If you die at night, you are woken to choose a player: you learn their character."
-  },
+  
   {
     "id": "virgin",
     "name": "Virgin",
@@ -132,19 +120,7 @@
     "setup": false,
     "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
   },
-  {
-    "id": "slayer",
-    "name": "Slayer",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": ["No ability"],
-    "setup": false,
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
-  },
+ 
   {
     "id": "soldier",
     "name": "Soldier",
@@ -172,8 +148,8 @@
     "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
   },
   {
-    "id": "butler",
-    "name": "Butler",
+    "id": "冯志",
+    "name": "冯志",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 39,
@@ -182,11 +158,11 @@
     "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
     "reminders": ["Master"],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
+    "ability": "技能一：亦正亦邪。你可能会被善良玩家当作邪恶对待。羁绊技能：都别活。首个夜晚选定一名玩家。如果该玩家是善良的，当你死亡时，他可能死亡。如果该玩家是邪恶的，当你死亡时，他不受影响。"
   },
   {
-    "id": "drunk",
-    "name": "Drunk",
+    "id": "吴剑轩",
+    "name": "吴剑轩",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -196,20 +172,7 @@
     "reminders": [],
     "remindersGlobal": ["Drunk"],
     "setup": true,
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
-  },
-  {
-    "id": "recluse",
-    "name": "Recluse",
-    "edition": "tb",
-    "team": "outsider",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "ability": "You might register as evil & as a Minion or Demon, even if dead."
+    "ability": "技能一：酒鬼疯子。你可以是任意类似的角色。技能二：都是兄弟。对自己提名的玩家投票时，不计数。羁绊技能：你都成为疯子，什么羁绊不能用？"
   },
   {
     "id": "saint",
@@ -225,8 +188,8 @@
     "ability": "If you die by execution, your team loses."
   },
   {
-    "id": "poisoner",
-    "name": "Poisoner",
+    "id": "彭雪莹",
+    "name": "彭雪莹",
     "edition": "tb",
     "team": "minion",
     "firstNight": 17,
@@ -235,11 +198,11 @@
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": ["Poisoned"],
     "setup": false,
-    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day."
+    "ability": "技能一：每个夜晚选择一名玩家，白天如果该玩家被提名会自动给自己上一票。黄昏结算时展示。羁绊技能：当说书人存在的时候，首夜可以查看五秒钟的魔典。当恶魔大哥传刀给你时，你将额外拥有中毒技能，每晚可以选定一名玩家投毒。"
   },
   {
-    "id": "spy",
-    "name": "Spy",
+    "id": "黄超",
+    "name": "黄超",
     "edition": "tb",
     "team": "minion",
     "firstNight": 49,
@@ -248,11 +211,11 @@
     "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead."
+    "ability": "技能一：每个夜间可以选择两名改变他们的座位号。（白天说书人会声明是否有人的座位号被挪动）羁绊技能：守护。首夜，你会得知郑方旖是否在场。如果方旖在白天被处决，你将在夜里死亡，同时恶魔将获得一次毒人的能力。."
   },
   {
-    "id": "scarletwoman",
-    "name": "Scarlet Woman",
+    "id": "草木",
+    "name": "草木",
     "edition": "tb",
     "team": "minion",
     "firstNight": 0,
@@ -261,7 +224,7 @@
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": ["Demon"],
     "setup": false,
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don\u2019t count)"
+    "ability": "技能一：你怎么知道的呢。一名善良玩家知道你是草木，如果他公开声称这一点 ，他可能被处决。每晚可以选定一名玩家进行投毒，仅持续到第二天黄昏。羁绊技能：当大哥还在场时，你底气很足，一票当作两票。"
   },
   {
     "id": "baron",
@@ -277,8 +240,8 @@
     "ability": "There are extra Outsiders in play. [+2 Outsiders]"
   },
   {
-    "id": "imp",
-    "name": "Imp",
+    "id": "杰姆C",
+    "name": "杰姆C",
     "edition": "tb",
     "team": "demon",
     "firstNight": 0,
@@ -287,11 +250,11 @@
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": ["Dead"],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
+    "ability": "技能一：借刀杀人。*每个夜晚选择一名玩家，他死亡，可以选择指定另一名玩家执行。羁绊技能：认出，出我吧。每局游戏限一次，可以选择成为说书人，随后一名爪牙变为恶魔。"
   },
   {
-    "id": "bureaucrat",
-    "name": "Bureaucrat",
+    "id": "4-1",
+    "name": "4-1",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 1,
@@ -300,7 +263,7 @@
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "reminders": ["3 votes"],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow."
+    "ability": "技能一：听我说。每个夜晚选择一名玩家，他每次发言开头需加上“大家听我说”，并疯狂表演4-1发言(复读角色技能并分析场上局势)，否则可能被处决。善良玩家在首个白天可以进行一次声明猜测：你是4-1吧。如果猜中游戏结束。羁绊技能：专业的说书人是不会这样给的。首个夜晚可以拟订两个善良角色获得的信息，如果角色在场技能生效"
   },
   {
     "id": "thief",
